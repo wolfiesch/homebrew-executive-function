@@ -8,7 +8,7 @@ class WolfiesCalendar < Formula
   license "MIT"
 
   url "https://github.com/wolfiesch/wolfies-executive-function/releases/download/v#{version}/wolfies-calendar-#{version}.tar.gz"
-  sha256 "PLACEHOLDER_SHA256"
+  sha256 "4feff5b52366c0eb7db4713f359e3e648d49e1306fd47afdf7e9b45714a97d65"
 
   depends_on :macos
   depends_on "python@3.11"

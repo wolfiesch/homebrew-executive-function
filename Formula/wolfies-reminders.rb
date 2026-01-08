@@ -8,7 +8,7 @@ class WolfiesReminders < Formula
   license "MIT"
 
   url "https://github.com/wolfiesch/wolfies-executive-function/releases/download/v#{version}/wolfies-reminders-#{version}.tar.gz"
-  sha256 "PLACEHOLDER_SHA256"
+  sha256 "966a0314fdc9823c6022b6e6139f1cc7573298f9fbb13281a3febc3bb8195b90"
 
   depends_on :macos
   depends_on "python@3.11"

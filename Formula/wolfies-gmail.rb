@@ -8,7 +8,7 @@ class WolfiesGmail < Formula
   license "MIT"
 
   url "https://github.com/wolfiesch/wolfies-executive-function/releases/download/v#{version}/wolfies-gmail-#{version}.tar.gz"
-  sha256 "PLACEHOLDER_SHA256"
+  sha256 "5f4c4fd1348b9e5637ac74fe003376e5422459c94542a062910a5c36db61ef1c"
 
   depends_on :macos
   depends_on "python@3.11"

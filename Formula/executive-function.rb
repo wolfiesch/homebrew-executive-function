@@ -9,7 +9,7 @@ class ExecutiveFunction < Formula
 
   # Meta-formula - no source, just dependencies
   url "https://github.com/wolfiesch/wolfies-executive-function/releases/download/v#{version}/executive-function-#{version}.tar.gz"
-  sha256 "PLACEHOLDER_SHA256"
+  sha256 "2c2b21c7f9be3b4d3cd56eea566b9de0644854bfb91ad192edcbb8da3bef63f2"
 
   depends_on "wolfiesch/executive-function/wolfies-imessage"
   depends_on "wolfiesch/executive-function/wolfies-gmail"

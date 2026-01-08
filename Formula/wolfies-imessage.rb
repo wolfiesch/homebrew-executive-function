@@ -4,17 +4,17 @@
 class WolfiesImessage < Formula
   desc "High-performance iMessage CLI with daemon architecture (19x faster than MCP)"
   homepage "https://github.com/wolfiesch/wolfies-executive-function"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/wolfiesch/wolfies-executive-function/releases/download/v#{version}/wolfies-imessage-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "efbb4237e33ae003f07ac0d06da41c7987a28f181c148b274b73348dfb601915"
+      sha256 "37a495ea7765754b980ae3dd25c4b6901772cd3d8abeec8cbe31cf8e53a94363"
     end
     on_intel do
       url "https://github.com/wolfiesch/wolfies-executive-function/releases/download/v#{version}/wolfies-imessage-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "69e319bcc5e1838575e6a7e953f5be70f3d384b166fee0b1454a748e82aee499"
+      sha256 "ecb065130d98a08eaf3a4f72b24429d421132f33d67a90d009cafa0f7257721f"
     end
   end
 
