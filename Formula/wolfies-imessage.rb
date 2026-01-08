@@ -10,11 +10,11 @@ class WolfiesImessage < Formula
   on_macos do
     on_arm do
       url "https://github.com/wolfiesch/LIFE-PLANNER/releases/download/v#{version}/wolfies-imessage-#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_ARM64_SHA256"
+      sha256 ""
     end
     on_intel do
       url "https://github.com/wolfiesch/LIFE-PLANNER/releases/download/v#{version}/wolfies-imessage-#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_X64_SHA256"
+      sha256 ""
     end
   end
 
